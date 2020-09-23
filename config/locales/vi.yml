@@ -1,0 +1,20 @@
+vi:
+  hello: "Hello world"
+  home: "Trang chủ"
+  help: "Trợ giúp"
+  layouts:
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
+      english: "English"
+      vietnamese: "Vietnamese"
+  static_pages:
+    help:
+      he: "Nhận trợ giúp về hướng dẫn Ruby on Rails tại"
+      he1: "Trang trợ giúp Hướng dẫn về Rails"
+      he2: "Để nhận trợ giúp về  sample app này, hãy xem"
+      he3: "Hướng dẫn về Ruby on Rails"
+      he4: "sách"
+    home:
+      h: "Sample App"
+      h1: "Đây là trang chủ của sample app"
+      h2: "Ruby on Rails Tutorial"
