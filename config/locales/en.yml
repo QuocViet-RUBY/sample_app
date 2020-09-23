@@ -3,6 +3,10 @@ en:
   home: "Home"
   help: "Help"
   layouts:
+    header:
+      logo: "sample app"
+      login: "Log in"
+      base_title: "Ruby on Rails Tutorial Sample App"
     application:
       title: "Ruby on Rails Tutorial Sample App"
       english: "English"
@@ -16,6 +20,7 @@ en:
       he4: "book"
     home:
       h: "Sample App"
-      h1: "his is the home page for the"
+      h1: "This is the home page for the"
       h2: "Ruby on Rails Tutorial"
       h3: "sample application."
+      h4: "Sign up now!"
