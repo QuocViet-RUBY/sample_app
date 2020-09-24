@@ -1,0 +1,25 @@
+en:
+  hello: "Hello world"
+  home: "Home"
+  help: "Help"
+  layouts:
+    header:
+      logo: "sample app"
+      login: "Log in"
+      base_title: "Ruby on Rails Tutorial Sample App"
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
+      english: "English"
+      vietnamese: "Vietnamese"
+  static_pages:
+    help:
+      he: "Get help on the Ruby on Rails Tutorial at the"
+      he1: "Rails Tutorial help page"
+      he2: "To get help on this sample app, see the"
+      he3: "Ruby on Rails Tutorial"
+      he4: "book"
+    home:
+      h: "Sample App"
+      h1: "his is the home page for the"
+      h2: "Ruby on Rails Tutorial"
+      h3: "sample application."
