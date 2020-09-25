@@ -19,6 +19,9 @@ vi:
       ruby: "Ruby on Rails Tutorial"
       by: "by"
       author: "Michael Hartl"
+  shared:
+    error:
+      msg: "Form chứa"
   static_pages:
     help:
       he: "Nhận trợ giúp về hướng dẫn Ruby on Rails tại"
@@ -32,3 +35,13 @@ vi:
       h2: "Ruby on Rails Tutorial"
       h3: "sample application."
       h4: "Đăng ký ngay!"
+  users:
+    new:
+      signup: "Đăng ký"
+      name: "Tên"
+      email: "Email"
+      pass: "Mật khẩu"
+      pass_c: "Xác nhận mật khẩu"
+      submit: "Tạo tài khoản của tôi"
+      not_found: "Người dùng không được tìm thấy"
+      welcome: "Chào mừng đến Sample App!"

@@ -19,6 +19,10 @@ en:
       ruby: "Ruby on Rails Tutorial"
       by: "by"
       author: "Michael Hartl"
+  shared:
+    error:
+      msg: "The form contains"
+      err: "error"
   static_pages:
     help:
       he: "Get help on the Ruby on Rails Tutorial at the"
@@ -32,3 +36,13 @@ en:
       h2: "Ruby on Rails Tutorial"
       h3: "sample application."
       h4: "Sign up now!"
+  users:
+    new:
+      signup: "Sign up"
+      name: "Name"
+      email: "Email"
+      pass: "Password"
+      pass_c: "Confirmation"
+      submit: "Create my account"
+      not_found: "User not found"
+      welcome: "Welcome to the Sample App!"
