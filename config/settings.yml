@@ -3,3 +3,4 @@ max_email: 255
 min_pass: 6
 gravatar_size: 80
 minutes: 5
+validate_max: 140

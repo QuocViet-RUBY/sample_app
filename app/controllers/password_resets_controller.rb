@@ -42,7 +42,7 @@ class PasswordResetsController < ApplicationController
     return if @user
 
     flash[:danger] = t "users.new.not_found"
-    redirect_to signup_path
+    redirect_to root_path
   end
 
   def valid_user

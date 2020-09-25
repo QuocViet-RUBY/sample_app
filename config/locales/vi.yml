@@ -28,18 +28,18 @@ vi:
     to: "to@example.org"
     content: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
     active: "Kích hoạt"
-  sessions:
-    create: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để  kích hoạt tài khoản."
-    invalid: "Invalid email/password combination"
-    remember: "Nhớ mật khẩu"
-  usersC:
-    create: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản của bạn."
-  mailer:
-    user: "Kích hoạt tài khoản"
-    hi: "Hi"
-    to: "to@example.org"
-    content: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
-    active: "Kích hoạt"
+  micro:
+    create: "Micropost đã tạo!"
+    destroy: "Micropost đã bị xóa"
+    format: "phải là một định dạng hình ảnh hợp lệ"
+    size: "phải nhỏ hơn 5MB"
+    compose: "Soạn micropost mới..."
+    alert: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
+    view: "xem hồ sơ của tôi"
+    seft: "micropost"
+    feed: "Micropost Feed"
+    posted: "Đã đăng %{time} trước."
+    danger: "Không tìm thấy bài đăng của bạn"
   layouts:
     header:
       logo: "sample app"
