@@ -1,8 +1,18 @@
 en:
   hello: "Hello world"
+  acc:
+    active: "Account activated!"
+    danger: "Invalid activation link"
   sessions:
+    create: "Account not activated. Check your email for the activation link."
     invalid: "Invalid email/password combination"
     remember: "Remember me on this computer"
+  mailer:
+    user: "Account activation"
+    hi: "Hi"
+    to: "to@example.org"
+    content: "Welcome to the Sample App! Click on the link below to activate your account:"
+    active: "Activate"
   layouts:
     header:
       logo: "sample app"
@@ -60,6 +70,7 @@ en:
       save_submit: "Save changes"
       change: "change"
       update_suss: "Profile updated"
+      failed: "Failed update"
     new:
       signup: "Sign up"
       name: "Name"
@@ -68,6 +79,17 @@ en:
       pass_c: "Confirmation"
       submit: "Create my account"
       not_found: "User not found"
+      welcome: "Welcome to the Sample App!"
+      ques: "New user?"
+      create: "Please check your email to activate your account."
+    login:
+      please: "Please log in."
+    show_all:
+      all_u: "All users"
+      del_u: "User deleted"
+      del: "delete"
+      cofir: "You sure?"
+      fail_del: "Failed to delete"
       welcome: "Welcome to the Sample App!"
       ques: "New user?"
     login:

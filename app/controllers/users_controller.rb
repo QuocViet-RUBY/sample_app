@@ -17,9 +17,10 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      log_in @user
-      flash[:success] = t "users.new.welcome"
-      redirect_to @user
+      @user.send_activation_email
+      UserMailer.account_activation(@user).deliver_now
+      flash[:info] = t "users.new.create"
+      redirect_to root_url
     else
       render :new
     end
@@ -32,7 +33,7 @@ class UsersController < ApplicationController
       flash[:success] = t "users.edit.update_suss"
       redirect_to @user
     else
-      flash[:success] = "loi roi"
+      flash[:danger] = t "users.edit.failed"
       render :edit
     end
   end
@@ -50,14 +51,14 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit(:name, :email, :password,
-    :password_confirmation)
+                                 :password_confirmation)
   end
 
   def logged_in_user
     store_location
     unless logged_in?
-    flash[:danger] = t "users.login.please"
-    redirect_to login_url
+      flash[:danger] = t "users.login.please"
+      redirect_to login_url
     end
   end
 
