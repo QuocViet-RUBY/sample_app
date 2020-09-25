@@ -40,6 +40,10 @@ en:
     feed: "Micropost Feed"
     posted: "Posted %{time} ago."
     danger: "Could not find your post"
+    following: "following"
+    follower: "followers"
+    follow: "Follow"
+    unfollow: "Unfollow"
   layouts:
     header:
       logo: "sample app"
@@ -110,6 +114,8 @@ en:
       welcome: "Welcome to the Sample App!"
       ques: "New user?"
       create: "Please check your email to activate your account."
+      welcome: "Welcome to the Sample App!"
+      ques: "New user?"
     login:
       please: "Please log in."
     show_all:
