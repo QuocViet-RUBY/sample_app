@@ -54,6 +54,12 @@ en:
       co: "Contact the Ruby on Rails Tutorial about the sample app at the"
       co1: "contact page"
   users:
+    edit:
+      title_edit: "Edit user"
+      title_up: "Update your profile"
+      save_submit: "Save changes"
+      change: "change"
+      update_suss: "Profile updated"
     new:
       signup: "Sign up"
       name: "Name"
@@ -64,3 +70,11 @@ en:
       not_found: "User not found"
       welcome: "Welcome to the Sample App!"
       ques: "New user?"
+    login:
+      please: "Please log in."
+    show_all:
+      all_u: "All users"
+      del_u: "User deleted"
+      del: "delete"
+      cofir: "You sure?"
+      fail_del: "Failed to delete"
