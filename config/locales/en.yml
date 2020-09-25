@@ -1,22 +1,23 @@
 en:
   hello: "Hello world"
-  home: "Home"
-  help: "Help"
+  sessions:
+    invalid: "Invalid email/password combination"
   layouts:
     header:
       logo: "sample app"
       login: "Log in"
+      logout: "Log out"
+      user: "Users"
+      profile: "Profile"
+      setting: "Settings"
+      acc: "Account"
       base_title: "Ruby on Rails Tutorial Sample App"
     application:
-      title: "Ruby on Rails Tutorial Sample App"
       english: "English"
       vietnamese: "Vietnamese"
     footer:
-      about: "About"
-      contact: "Contact"
       news: "News"
       the: "The"
-      ruby: "Ruby on Rails Tutorial"
       by: "by"
       author: "Michael Hartl"
   shared:
@@ -24,18 +25,33 @@ en:
       msg: "The form contains"
       err: "error"
   static_pages:
+    about:
+      title_ab: "About"
+      ab: ", part of the"
+      ab1: "Learn Enough"
+      ab2: "family of tutorials, is a"
+      ab3: "and"
+      ab4: "screencast series"
+      ab5: "to teach web development with"
+      ab6: "Ruby on Rails"
+      ab7: "This is the sample app for the tutorial."
     help:
+      title_he: "Help"
       he: "Get help on the Ruby on Rails Tutorial at the"
       he1: "Rails Tutorial help page"
       he2: "To get help on this sample app, see the"
-      he3: "Ruby on Rails Tutorial"
       he4: "book"
     home:
+      title_h: "Home"
       h: "Sample App"
-      h1: "his is the home page for the"
+      h1: "This is the home page for the"
       h2: "Ruby on Rails Tutorial"
       h3: "sample application."
       h4: "Sign up now!"
+    contact:
+      title_co: "Contact"
+      co: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      co1: "contact page"
   users:
     new:
       signup: "Sign up"
@@ -46,3 +62,4 @@ en:
       submit: "Create my account"
       not_found: "User not found"
       welcome: "Welcome to the Sample App!"
+      ques: "New user?"

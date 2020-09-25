@@ -1,40 +1,56 @@
 vi:
   hello: "Hello world"
-  home: "Trang chủ"
-  help: "Trợ giúp"
+  sessions:
+    invalid: "Invalid email/password combination"
   layouts:
     header:
       logo: "sample app"
       login: "Đăng nhập"
+      logout: "Đăng xuất"
+      user: "Người dùng"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      acc: "Tài khoản"
       base_title: "Ruby on Rails Tutorial Sample App"
     application:
-      title: "Ruby on Rails Tutorial Sample App"
       english: "English"
       vietnamese: "Vietnamese"
     footer:
-      about: "Giới thiệu"
-      contact: "Liên hệ"
       news: "News"
       the: "The"
-      ruby: "Ruby on Rails Tutorial"
       by: "by"
       author: "Michael Hartl"
   shared:
     error:
       msg: "Form chứa"
   static_pages:
+    about:
+      title_ab: "Giới thiệu"
+      ab: ", một phần của"
+      ab1: "Learn Enough"
+      ab2: "gia đình hướng dẫn, là một"
+      ab3: "và"
+      ab4: "screencast series"
+      ab5: "để phát triển dạy web với"
+      ab6: "Ruby on Rails"
+      ab7: "Đây là sample app để hướng dẫn."
     help:
+      title_he: "Trợ giúp"
       he: "Nhận trợ giúp về hướng dẫn Ruby on Rails tại"
       he1: "Trang trợ giúp Hướng dẫn về Rails"
       he2: "Để nhận trợ giúp về  sample app này, hãy xem"
-      he3: "Hướng dẫn về Ruby on Rails"
-      he4: "sách"
+      he4: "cuốn sách"
     home:
+      title_h: "Trang chủ"
       h: "Sample App"
       h1: "Đây là trang chủ của Sample App"
       h2: "Ruby on Rails Tutorial"
       h3: "sample application."
       h4: "Đăng ký ngay!"
+    contact:
+      title_co: "Liên hệ"
+      co: "Liên hệ với Hướng dẫn Ruby on Rails về  sample app tại"
+      co1: "trang liên hệ"
   users:
     new:
       signup: "Đăng ký"
@@ -45,3 +61,4 @@ vi:
       submit: "Tạo tài khoản của tôi"
       not_found: "Người dùng không được tìm thấy"
       welcome: "Chào mừng đến Sample App!"
+      ques: "Người dùng mới?"
