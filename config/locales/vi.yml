@@ -3,6 +3,10 @@ vi:
   home: "Trang chủ"
   help: "Trợ giúp"
   layouts:
+    header:
+      logo: "sample app"
+      login: "Đăng nhập"
+      base_title: "Ruby on Rails Tutorial Sample App"
     application:
       title: "Ruby on Rails Tutorial Sample App"
       english: "English"
@@ -16,5 +20,7 @@ vi:
       he4: "sách"
     home:
       h: "Sample App"
-      h1: "Đây là trang chủ của sample app"
+      h1: "Đây là trang chủ của Sample App"
       h2: "Ruby on Rails Tutorial"
+      h3: "sample application."
+      h4: "Đăng ký ngay!"
