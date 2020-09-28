@@ -11,6 +11,14 @@ en:
       title: "Ruby on Rails Tutorial Sample App"
       english: "English"
       vietnamese: "Vietnamese"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      the: "The"
+      ruby: "Ruby on Rails Tutorial"
+      by: "by"
+      author: "Michael Hartl"
   static_pages:
     help:
       he: "Get help on the Ruby on Rails Tutorial at the"

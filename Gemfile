@@ -5,6 +5,7 @@ ruby "2.7.1"
 
 gem "bcrypt", "3.1.13"
 gem "bootstrap-sass", "~> 3.4.1"
+gem "config"
 gem "jbuilder", "~> 2.7"
 gem "puma", "~> 4.1"
 gem "rails", "~> 6.0.3", ">= 6.0.3.3"
