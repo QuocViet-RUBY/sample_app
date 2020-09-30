@@ -2,6 +2,7 @@ vi:
   hello: "Hello world"
   sessions:
     invalid: "Invalid email/password combination"
+    remember: "Nhớ mật khẩu"
   layouts:
     header:
       logo: "sample app"
@@ -23,6 +24,7 @@ vi:
   shared:
     error:
       msg: "Form chứa"
+      err: "lỗi"
   static_pages:
     about:
       title_ab: "Giới thiệu"

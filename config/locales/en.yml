@@ -2,6 +2,7 @@ en:
   hello: "Hello world"
   sessions:
     invalid: "Invalid email/password combination"
+    remember: "Remember me on this computer"
   layouts:
     header:
       logo: "sample app"
