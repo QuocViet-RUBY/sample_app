@@ -54,6 +54,12 @@ vi:
       co: "Liên hệ với Hướng dẫn Ruby on Rails về  sample app tại"
       co1: "trang liên hệ"
   users:
+    edit:
+      title_edit: "Chỉnh sửa người dùng"
+      title_up: "Cập nhật hồ  sơ của bạn"
+      save_submit: "Lưu các thay đổi"
+      change: "Thay đổi"
+      update_suss: "Cập nhật hồ sơ thành công"
     new:
       signup: "Đăng ký"
       name: "Tên"
@@ -64,3 +70,11 @@ vi:
       not_found: "Người dùng không được tìm thấy"
       welcome: "Chào mừng đến Sample App!"
       ques: "Người dùng mới?"
+    login:
+      please: "Vui lòng đăng nhập."
+    show_all:
+      all_u: "Tất cả người dùng"
+      del_u: "Người dùng đã bị xóa"
+      del: "Xóa"
+      cofir: "Bạn chắc?"
+      fail_del: "Xóa thất bại"
