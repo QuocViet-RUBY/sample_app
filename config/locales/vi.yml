@@ -1,8 +1,18 @@
 vi:
   hello: "Hello world"
+  acc:
+    active: "Tài khoản đã được kích hoạt!"
+    danger: "Liên kết kích hoạt không hợp lệ"
   sessions:
+    create: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để  kích hoạt tài khoản."
     invalid: "Invalid email/password combination"
     remember: "Nhớ mật khẩu"
+  mailer:
+    user: "Kích hoạt tài khoản"
+    hi: "Hi"
+    to: "to@example.org"
+    content: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+    active: "Kích hoạt"
   layouts:
     header:
       logo: "sample app"
@@ -60,6 +70,7 @@ vi:
       save_submit: "Lưu các thay đổi"
       change: "Thay đổi"
       update_suss: "Cập nhật hồ sơ thành công"
+      failed: "Cập nhật thất bại"
     new:
       signup: "Đăng ký"
       name: "Tên"
@@ -68,6 +79,17 @@ vi:
       pass_c: "Xác nhận mật khẩu"
       submit: "Tạo tài khoản của tôi"
       not_found: "Người dùng không được tìm thấy"
+      welcome: "Chào mừng đến Sample App!"
+      ques: "Người dùng mới?"
+      create: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+    login:
+      please: "Vui lòng đăng nhập."
+    show_all:
+      all_u: "Tất cả người dùng"
+      del_u: "Người dùng đã bị xóa"
+      del: "Xóa"
+      cofir: "Bạn chắc?"
+      fail_del: "Xóa thất bại"
       welcome: "Chào mừng đến Sample App!"
       ques: "Người dùng mới?"
     login:
