@@ -3,10 +3,37 @@ vi:
   acc:
     active: "Tài khoản đã được kích hoạt!"
     danger: "Liên kết kích hoạt không hợp lệ"
+  pass_reset:
+    forgot: "Quên mật khẩu"
+    submit: "Gửi"
+    create: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+    create_found: "Không tìm thấy địa chỉ email"
+    reset: "Đặt lại mật khẩu"
+    content: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+    reset2: "Đặt lại mật khẩu"
+    content2: "Liên kết này sẽ hết hạn sau hai giờ."
+    content3: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và
+              mật khẩu của bạn sẽ được giữ nguyên."
+    update: "Cập nhật mật khẩu"
+    empty: "không thể để trống"
+    success: "Mật khẩu đã được đặt lại."
+    expried: "Đặt lại mật khẩu đã hết hạn."
   sessions:
     create: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để  kích hoạt tài khoản."
     invalid: "Invalid email/password combination"
     remember: "Nhớ mật khẩu"
+  mailer:
+    user: "Kích hoạt tài khoản"
+    hi: "Hi"
+    to: "to@example.org"
+    content: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+    active: "Kích hoạt"
+  sessions:
+    create: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để  kích hoạt tài khoản."
+    invalid: "Invalid email/password combination"
+    remember: "Nhớ mật khẩu"
+  usersC:
+    create: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản của bạn."
   mailer:
     user: "Kích hoạt tài khoản"
     hi: "Hi"
@@ -76,22 +103,13 @@ vi:
       name: "Tên"
       email: "Email"
       pass: "Mật khẩu"
+      forgot_p: "(quên mật khẩu)"
       pass_c: "Xác nhận mật khẩu"
       submit: "Tạo tài khoản của tôi"
       not_found: "Người dùng không được tìm thấy"
       welcome: "Chào mừng đến Sample App!"
       ques: "Người dùng mới?"
       create: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản của bạn."
-    login:
-      please: "Vui lòng đăng nhập."
-    show_all:
-      all_u: "Tất cả người dùng"
-      del_u: "Người dùng đã bị xóa"
-      del: "Xóa"
-      cofir: "Bạn chắc?"
-      fail_del: "Xóa thất bại"
-      welcome: "Chào mừng đến Sample App!"
-      ques: "Người dùng mới?"
     login:
       please: "Vui lòng đăng nhập."
     show_all:

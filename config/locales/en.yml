@@ -3,10 +3,37 @@ en:
   acc:
     active: "Account activated!"
     danger: "Invalid activation link"
+  pass_reset:
+    forgot: "Forgot password"
+    submit: "Submit"
+    create: "Email sent with password reset instructions"
+    create_found: "Email address not found"
+    reset: "Password reset"
+    content: "To reset your password click the link below:"
+    reset2: "Reset password"
+    content2: "This link will expire in two hours."
+    content3: "If you did not request your password to be reset, please ignore this email and
+              your password will stay as it is."
+    update: "Update password"
+    empty: "can't be empty"
+    success: "Password has been reset."
+    expried: "Password reset has expired."
   sessions:
     create: "Account not activated. Check your email for the activation link."
     invalid: "Invalid email/password combination"
     remember: "Remember me on this computer"
+  mailer:
+    user: "Account activation"
+    hi: "Hi"
+    to: "to@example.org"
+    content: "Welcome to the Sample App! Click on the link below to activate your account:"
+    active: "Activate"
+  sessions:
+    create: "Account not activated. Check your email for the activation link."
+    invalid: "Invalid email/password combination"
+    remember: "Remember me on this computer"
+  usersC:
+    create: "Please check your email to activate your account."
   mailer:
     user: "Account activation"
     hi: "Hi"
@@ -76,22 +103,13 @@ en:
       name: "Name"
       email: "Email"
       pass: "Password"
+      forgot_p: "(forgot password)"
       pass_c: "Confirmation"
       submit: "Create my account"
       not_found: "User not found"
       welcome: "Welcome to the Sample App!"
       ques: "New user?"
       create: "Please check your email to activate your account."
-    login:
-      please: "Please log in."
-    show_all:
-      all_u: "All users"
-      del_u: "User deleted"
-      del: "delete"
-      cofir: "You sure?"
-      fail_del: "Failed to delete"
-      welcome: "Welcome to the Sample App!"
-      ques: "New user?"
     login:
       please: "Please log in."
     show_all:
