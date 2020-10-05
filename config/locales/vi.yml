@@ -40,6 +40,10 @@ vi:
     feed: "Micropost Feed"
     posted: "Đã đăng %{time} trước."
     danger: "Không tìm thấy bài đăng của bạn"
+    following: "Đang theo dõi"
+    follower: "Người theo dõi"
+    follow: "Theo dõi"
+    unfollow: "Bỏ theo dõi"
   layouts:
     header:
       logo: "sample app"
@@ -110,6 +114,8 @@ vi:
       welcome: "Chào mừng đến Sample App!"
       ques: "Người dùng mới?"
       create: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+      welcome: "Chào mừng đến Sample App!"
+      ques: "Người dùng mới?"
     login:
       please: "Vui lòng đăng nhập."
     show_all:

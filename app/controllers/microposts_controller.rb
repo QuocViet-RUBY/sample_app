@@ -31,7 +31,9 @@ class MicropostsController < ApplicationController
 
   def correct_user
     @micropost = current_user.microposts.find_by(id: params[:id])
+    return if @micropost
+
     flash[:danger] = t "micro.danger"
-    redirect_to root_url if @micropost.nil?
+    redirect_to root_url
   end
 end
